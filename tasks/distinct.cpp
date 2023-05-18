@@ -17,7 +17,10 @@ int main() {
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
-		{
+		{	if (i == j && i == n - 1)
+			{
+				res.push_back(vec[i]);
+			}
 			if (i == j) continue;
 			if (vec[i] == vec[j]) break;
 			if (j == n - 1)
