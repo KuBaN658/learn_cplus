@@ -30,4 +30,9 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
 .vscode/
+=======
+.vs/
+CppPro
+>>>>>>> f120388c9c752e67bf2179fb5d5b420b9e8b7214
